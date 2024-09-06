@@ -1,0 +1,12 @@
+/*Belajar Mengenal Text Styling*/
+h1 {
+    font-size: 120px;
+    color: #20b2aa;
+    text-decoration: double;
+    word-spacing: 10px;
+}
+
+p{
+    text-align: justify;
+    text-indent: 40px;
+}
