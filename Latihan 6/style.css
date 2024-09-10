@@ -1,0 +1,28 @@
+.hello:link{
+    color:Orange;
+}
+/* :link merupakan style default pada sebuah link (a yang memiliki href) */
+
+.hello:hover {
+    color:chartreuse;
+    font-family: arial;
+    font-size: 40px;
+}
+/* :hover merupakan style kursor mouse berada diatas sebuah link/elemen */
+
+.hello:active {
+    font-style: italic;
+}
+/* :active merupakan stlye ketika sebuah link di-klik (keadaan aktif)
+    :visited merupakan style ketika sebuah link sudah pernah dikunjungi sebelumnya (menggunakan browser yg sama */
+
+li:first-child a {
+    color:sienna;
+}
+/*first-child merupakan seleksi element child yg berada pada urutan pertama
+  last-child merupakan seleksi element child yg berada pada urutan terakhir
+  nth-child merupakan seleksi element child yang kita pilih secara acak */
+
+  p:first-of-type {
+    color: aqua;
+  }
