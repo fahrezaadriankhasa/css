@@ -1,0 +1,13 @@
+CSS
+
+p { color:blueviolet  ;}
+
+#p1 {color : aqua !important; }
+
+ul#sarapan li {
+    color:chartreuse;
+}
+
+ul#sarapan li.favorit {
+    color:cornflowerblue;
+}
